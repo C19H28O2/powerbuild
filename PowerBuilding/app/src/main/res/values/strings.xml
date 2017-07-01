@@ -13,4 +13,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="text_welcome">Welcome to Powerbuilding</string>
+    <string name="text_before_start">Before start I need to ask you a few questions: </string>
+
 </resources>
