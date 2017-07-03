@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".LoginActivity"
+            android:name=".Welcome"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Welcome" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".QuestionOne" />
         <activity android:name=".QuestionTwo" />
         <activity android:name=".QuestionThree"></activity>
