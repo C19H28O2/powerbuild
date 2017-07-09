@@ -7,22 +7,6 @@
     android:background="@mipmap/background1"
     tools:context="com.example.humbert.powerbuilding.QuestionOne">
 
-    <ImageButton
-        android:id="@+id/btn_female"
-        android:layout_width="113dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@mipmap/btn_female"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_male"
-        app:layout_constraintVertical_bias="0.193"
-        tools:layout_editor_absoluteY="428dp" />
-
     <TextView
         android:id="@+id/question"
         android:layout_width="wrap_content"
@@ -37,19 +21,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026" />
-
-    <ImageButton
-        android:id="@+id/btn_male"
-        android:layout_width="113dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="66dp"
-        android:background="@mipmap/btn_male"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question"
-        tools:layout_editor_absoluteY="359dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -66,4 +37,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.066"
         app:srcCompat="@mipmap/icono2" />
+
+    <Button
+        android:id="@+id/btn_male"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button_male"
+        android:onClick="onClick"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/btn_female"
+        android:layout_width="96dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button_female"
+        android:onClick="onClick"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_male"
+        app:layout_constraintVertical_bias="0.344"
+        tools:layout_editor_absoluteY="424dp" />
 </android.support.constraint.ConstraintLayout>
