@@ -22,5 +22,6 @@
 
 
     <!-- Strings activity IntroduceWorkout -->
-
+    <string name="days">When you train?</string>
+    <string name="start">When you start?</string>
 </resources>

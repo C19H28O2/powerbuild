@@ -28,8 +28,12 @@ public class IntroduceWorkout extends AppCompatActivity implements View.OnClickL
         sunday.setOnClickListener(this);
         
     }
+<<<<<<< HEAD
     public void onClick(View v){
 
+=======
+    //Saber que dia está clicado + switch
+>>>>>>> master
 
     }
 
