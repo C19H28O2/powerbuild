@@ -31,11 +31,17 @@ public class IntroduceWorkout extends AppCompatActivity implements View.OnClickL
         calendar=(CalendarView) findViewById(R.id.calendar);
       //  calendar.setOnClickListener(this);
     }
+<<<<<<< Updated upstream
 
     public void onClick(View v){
 
     //Saber que dia está clicado + switch
 
+=======
+
+    //Saber que dia está clicado + switch
+    public void onClick(View v){
+>>>>>>> Stashed changes
 
     }
 
