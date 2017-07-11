@@ -26,7 +26,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".QuestionOne" />
         <activity android:name=".QuestionTwo" />
-        <activity android:name=".QuestionThree"></activity>
+        <activity android:name=".QuestionThree" />
+        <activity android:name=".QuestionFour"></activity>
     </application>
 
 </manifest>

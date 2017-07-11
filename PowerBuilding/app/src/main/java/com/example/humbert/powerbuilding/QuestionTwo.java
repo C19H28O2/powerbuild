@@ -27,9 +27,10 @@ public class QuestionTwo extends AppCompatActivity implements View.OnClickListen
         accept.setOnClickListener(this);
         Intent i = getIntent();
         p = (Person) i.getParcelableExtra("person");
+        weight_number.setHint("Kg");
 
     }
-    //Arreglar que cuando este clicado Kg aparezca hint de Kg y viceversa con Lbs
+
             public void onClick(View v){
 
                 switch(v.getId()){
@@ -45,6 +46,7 @@ public class QuestionTwo extends AppCompatActivity implements View.OnClickListen
                         break;
                     case R.id.btn_accept:
                         p.setWeight_units(weight.isChecked());
+                        p.setWeight(Float.valueOf(weight_number.getText().toString()));
                         Intent intent = new Intent(QuestionTwo.this, QuestionThree.class);
                         intent.putExtra("person", (Parcelable) p);
                         startActivity(intent);

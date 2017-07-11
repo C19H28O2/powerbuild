@@ -17,4 +17,7 @@
     <string name="before_start">Before start I need to ask you a few questions: </string>
     <string name="question_one"> What is your gender? </string>
     <string name="question_two"> What is your weight? </string>
+    <string name="question_three">What is your height? </string>
+    <string name="question_four">What would you rather do ?  </string>
+
 </resources>
