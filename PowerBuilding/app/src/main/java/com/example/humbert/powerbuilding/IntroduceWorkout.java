@@ -10,6 +10,6 @@ public class IntroduceWorkout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_introduce_workout);
     }
-
+    //Saber que dia está clicado + switch
 
 }

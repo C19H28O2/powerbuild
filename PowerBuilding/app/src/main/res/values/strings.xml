@@ -21,5 +21,6 @@
     <string name="question_four">What would you rather do ?  </string>
 
     <!-- Strings activity IntroduceWorkout -->
-
+    <string name="days">When you train?</string>
+    <string name="start">When you start?</string>
 </resources>
