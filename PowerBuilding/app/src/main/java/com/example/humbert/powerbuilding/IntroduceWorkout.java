@@ -3,10 +3,12 @@ package com.example.humbert.powerbuilding;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CalendarView;
 import android.widget.ToggleButton;
 
 public class IntroduceWorkout extends AppCompatActivity implements View.OnClickListener {
     ToggleButton monday,tuesday,wednesday,thursday,friday,saturday,sunday;
+    CalendarView calendar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +28,14 @@ public class IntroduceWorkout extends AppCompatActivity implements View.OnClickL
         friday.setOnClickListener(this);
         saturday.setOnClickListener(this);
         sunday.setOnClickListener(this);
-        
+        calendar=(CalendarView) findViewById(R.id.calendar);
+      //  calendar.setOnClickListener(this);
     }
-<<<<<<< HEAD
+
     public void onClick(View v){
 
-=======
     //Saber que dia está clicado + switch
->>>>>>> master
+
 
     }
 
