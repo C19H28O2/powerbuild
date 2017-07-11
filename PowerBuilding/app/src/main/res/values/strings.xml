@@ -20,4 +20,6 @@
     <string name="question_three">What is your height? </string>
     <string name="question_four">What would you rather do ?  </string>
 
+    <!-- Strings activity IntroduceWorkout -->
+
 </resources>
